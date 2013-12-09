@@ -172,4 +172,4 @@ _[Descreva as ferramentas de software, o pessoal e o treinamento necessários pa
 
 6. Auditorias de Configuração
 =============================
-_[Descreva o cronograma das auditorias de configuração e o que será verificado. Informe também como serão reportados os problemas encontrados e onde sera feito o acompanhamento dos itens corretivos.]_
+As auditorias de configuração devem ser feitas para cada ciclo do processo de desenvolvimento de forma a garantir que o processo de gerência de configuração vem sendo corretamente aplicado. Os artefatos gerados baseados no template devem ser armazenados no repositorio do projeto e devem ser acompanhados pelo Gerente de Configuração e pelo Comitê de Controle de Mudanças. Uma vez por semana será feito um backup da versão mais recente dos artefatos que se encontram no controle de versão na maquina de dois membros participante do projeto.
