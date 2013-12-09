@@ -11,7 +11,7 @@ Histórico de Versões
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
 |04/12/2013|1.0|Versão inicial|Jackson Uchoa|
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|
+|08/12/2013|1.1|Atualização|Yago Melo|
 
 
 
@@ -154,8 +154,18 @@ As solicitações de mudanças das Baselines serão realizadas através da ferra
 ![Alt text](https://docs.google.com/file/d/0B2Hs6NOsK9SkaFVrYnpvN1hsWTg/edit)
 
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
-_[Descreva a participação e os procedimentos para processar solicitações e aprovações de mudança a serem seguidos pelo CCB. Informe quem são os membros do CCB e suas responsabilidades.]_
 
+As solicitações de mudanças das Baselines serão realizadas com a ferramenta Issues, através do endereço do repositório.
+O comitê de Controle de Mudanças (CCM) será formado por Analista de sistemas e Gerente de Configuração.
+
+| Atividade              | Descrição	         | Responsabilidade |
+|------------------------|--------------------|------------------|
+|Aberto |Criação da Solicitação |Todos |
+|Em Analise |Análise de Solicitação |Analista de Sistemas |
+|Analisado |Aguardado Desenvolvimento |Analista de Sistemas |
+|Em Desenvolvimento | Aguardando Desenvolvimento | Desenvolvedor |
+|Em Teste | Solicitação em Teste | Testador |
+|Finalizado |Solicitação Finalizada |Analista |
 
 
 4. Padrões e Procedimentos
@@ -172,4 +182,4 @@ _[Descreva as ferramentas de software, o pessoal e o treinamento necessários pa
 
 6. Auditorias de Configuração
 =============================
-_[Descreva o cronograma das auditorias de configuração e o que será verificado. Informe também como serão reportados os problemas encontrados e onde sera feito o acompanhamento dos itens corretivos.]_
+As auditorias de configuração devem ser feitas para cada ciclo do processo de desenvolvimento de forma a garantir que o processo de gerência de configuração vem sendo corretamente aplicado. Os artefatos gerados baseados no template devem ser armazenados no repositorio do projeto e devem ser acompanhados pelo Gerente de Configuração e pelo Comitê de Controle de Mudanças.
